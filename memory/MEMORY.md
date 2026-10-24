@@ -1,0 +1,3 @@
+- [Colab: kernel state over local PID](colab-kernel-state-over-local-pid.md) — judge Colab run status by the VM kernel's execution_state, not the local `colab exec` process or `colab status`
+- [Helper scripts in repo](helper-scripts-in-repo.md) — monitoring/helper scripts go in /raid/wg25r/anti_design/tools/ and are committed, never the scratchpad
+- [Monitor: report homogenization](monitor-report-homogenization.md) — image-run checks report within-grid and cross-grid homogenization, not only anti-aesthetic direction

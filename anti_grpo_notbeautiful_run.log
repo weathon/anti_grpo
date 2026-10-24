@@ -59,3 +59,1750 @@ View run at https://wandb.ai/3dsmile/uncategorized/runs/kjyybhbr
   0%|          | 0/28 [00:00<?, ?it/s]
   0%|          | 0/28 [00:00<?, ?it/s]
   0%|          | 0/28 [00:00<?, ?it/s]
+  0%|          | 0/28 [00:00<?, ?it/s]
+  0%|          | 0/28 [00:00<?, ?it/s]
+[0.9681287582686863, 0.9044989007740604, 0.9751769427548637, 0.9465594884019785, 0.614324413039148, 0.9749624231649563, 0.6512088812598998, 0.9711408289520503, 0.9518056910128176, 0.9565042875239879, 0.9727161843819996, 0.9620408324996812, 0.9638490260967418, 0.9704488295333522, 0.967108088455244, 0.8970135492567782] [0.9599087514883792, 0.9785797673344111, 0.9525007011229495, 0.9771760826729834, 0.9450292529708605, 0.9680828952905727, 0.958253252821889, 0.9725921582054007, 0.9519726153781874, 0.9609254861573497, 0.963277353559283, 0.9707191751556203, 0.9682466044208663, 0.9566091111294087, 0.9599875479521446, 0.9465666758930378] [2.796088457107544, 5.773493766784668, 3.9377384185791016, 4.901311874389648, 2.472698926925659, 5.577591896057129, 2.4500718116760254, 4.892295837402344, 4.580493450164795, 4.600226879119873, 3.273547410964966, 4.3718132972717285, 4.704036235809326, 5.501026153564453, 4.008665561676025, 4.94553279876709] [0.42479562759399414, 0.412994921207428, 0.31345832347869873, 0.33324766159057617, 0.4465305805206299, 0.3122096061706543, 0.5306174755096436, 0.3224083185195923, 0.34754109382629395, 0.3621135354042053, 0.39160358905792236, 0.3244165778160095, 0.3743041157722473, 0.30441904067993164, 0.3554386496543884, 0.33420318365097046] [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+[ 2/160 : < :, Epoch 0.00/1]                                                    
+
+                     
+ Step  Training Loss 
+ ─────────────────── 
+                     
+                                                                                
+ ╭──────────────────────────────────────────────────── Step 1                   
+ ─────────────────────────────────────────────────────╮                         
+ │                                                                              
+ ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
+ ━━━━━━┳━━━━━━━━━━━━━┳━━━━━━━━━━━┓ │                                            
+ │ ┃ Prompt                                  ┃ Completion                       
+ ┃ reward_func ┃ Advantage ┃ │                                                  
+ │                                                                              
+ ┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 
+ ━━━━━━╇━━━━━━━━━━━━━╇━━━━━━━━━━━┩ │                                            
+ │ │ SYSTEM                                  │ ASSISTANT                        
+ │        5.12 │      1.94 │ │                                                  
+ │ │                                         │                                  
+ │             │           │ │                                                  
+ │ │ Your job is to design a prompt for a    │ {                                
+ │             │           │ │                                                  
+ │ │ creative, non-traditional style image   │   "thinking_process": "To create 
+ a      │             │           │ │                                           
+ │ │ for a given noun. You should output     │ non-traditional image for        
+ 'hedgehog', I │             │           │ │                                    
+ │ │ both a positive prompt and negative     │ will focus on abstract, surreal, 
+ and    │             │           │ │                                           
+ │ │ prompt, in JSON mode. The negative      │ macro perspectives that move     
+ away from  │             │           │ │                                       
+ │ │ prompt should describe things that      │ realistic rendering. Instead of  
+ a       │             │           │ │                                          
+ │ │ would make the image look traditional.  │ standard hedgehog in a garden or 
+ │             │           │ │                                                  
+ │ │ The negative prompt should not use      │ forest, I will envision a        
+ hedgehog      │             │           │ │                                    
+ │ │ negation. Write a thinking process      │ constructed from unexpected      
+ materials   │             │           │ │                                      
+ │ │ before your response.                   │ like neon wires, liquid mercury, 
+ or     │             │           │ │                                           
+ │ │                                         │ pixelated data streams. The      
+ lighting    │             │           │ │                                      
+ │ │ Format (replace <text> with actual      │ will be dramatic and theatrical, 
+ │             │           │ │                                                  
+ │ │ content, with the code wrapping block): │ perhaps using bioluminescence or 
+ neon   │             │           │ │                                           
+ │ │ ```json                                 │ glows, to enhance the surreal    
+ quality.  │             │           │ │                                        
+ │ │ {                                       │ Traditional elements like green  
+ │             │           │ │                                                  
+ │ │   "thinking_process": <text>,           │ foliage, brown soil, soft        
+ natural       │             │           │ │                                    
+ │ │   "positive_prompt": <text>,            │ lighting, photo-realistic        
+ textures, and │             │           │ │                                    
+ │ │   "negative_prompt": <text>             │ standard botanical backgrounds   
+ will be  │             │           │ │                                         
+ │ │ }                                       │ avoided to ensure the style      
+ remains     │             │           │ │                                      
+ │ │ ```                                     │ distinct and artistic.",         
+ │             │           │ │                                                  
+ │ │                                         │   "positive_prompt": "A surreal  
+ │             │           │ │                                                  
+ │ │                                         │ hedgehog constructed from        
+ glowing neon  │             │           │ │                                    
+ │ │ USER                                    │ wireframes and shifting pixel    
+ grids,    │             │           │ │                                        
+ │ │ hedgehog                                │ emerging from a sea of liquid    
+ mercury,  │             │           │ │                                        
+ │ │                                         │ illuminated by dramatic          
+ volumetric neon │             │           │ │                                  
+ │ │ ASSISTANT                               │ purple and cyan lighting,        
+ floating in   │             │           │ │                                    
+ │ │ ```json                                 │ zero gravity, surrounded by      
+ floating    │             │           │ │                                      
+ │ │                                         │ geometric shapes,                
+ hyper-detailed, 8k    │             │           │ │                            
+ │ │                                         │ resolution, cyberpunk aesthetic, 
+ │             │           │ │                                                  
+ │ │                                         │ bioluminescent texture,          
+ dreamlike       │             │           │ │                                  
+ │ │                                         │ atmosphere, digital art",        
+ │             │           │ │                                                  
+ │ │                                         │   "negative_prompt": "natural    
+ │             │           │ │                                                  
+ │ │                                         │ background, green leaves, brown  
+ earth,  │             │           │ │                                          
+ │ │                                         │ sunlight, photo-realistic,       
+ animal skin  │             │           │ │                                     
+ │ │                                         │ texture, fur, traditional        
+ garden,       │             │           │ │                                    
+ │ │                                         │ woodland scene, soft natural     
+ lighting,  │             │           │ │                                       
+ │ │                                         │ realistic animals, botanical     
+ │             │           │ │                                                  
+ │ │                                         │ illustration, studio             
+ photography,       │             │           │ │                               
+ │ │                                         │ outdoor setting, dull colors,    
+ │             │           │ │                                                  
+ │ │                                         │ grayscale, mundane, realistic    
+ │             │           │ │                                                  
+ │ │                                         │ rendering"                       
+ │             │           │ │                                                  
+ │ │                                         │ }                                
+ │             │           │ │                                                  
+ │ │                                         │ ```                              
+ │             │           │ │                                                  
+ │                                                                              
+ ├─────────────────────────────────────────┼─────────────────────────────────── 
+ ──────┼─────────────┼───────────┤ │                                            
+ │ │ SYSTEM                                  │ ASSISTANT                        
+ │        4.27 │     -0.72 │ │                                                  
+ │ │                                         │                                  
+ │             │           │ │                                                  
+ │ │ Your job is to design a prompt for a    │ {                                
+ │             │           │ │                                                  
+ │ │ creative, non-traditional style image   │   "thinking_process": "To create 
+ a      │             │           │ │                                           
+ │ │ for a given noun. You should output     │ non-traditional image of a       
+ hedgehog, I  │             │           │ │                                     
+ │ │ both a positive prompt and negative     │ need to move away from the       
+ common       │             │           │ │                                     
+ │ │ prompt, in JSON mode. The negative      │ imagery of a cute, fluffy red    
+ creature  │             │           │ │                                        
+ │ │ prompt should describe things that      │ with straight black stripes on   
+ grass.   │             │           │ │                                         
+ │ │ would make the image look traditional.  │ Instead, I will conceptualize a  
+ │             │           │ │                                                  
+ │ │ The negative prompt should not use      │ surrealist or steampunk style.   
+ The      │             │           │ │                                         
+ │ │ negation. Write a thinking process      │ hedgehog's spines could be       
+ transformed  │             │           │ │                                     
+ │ │ before your response.                   │ into brass gears, steam pipes,   
+ or       │             │           │ │                                         
+ │ │                                         │ electric wires. The texture      
+ should be   │             │           │ │                                      
+ │ │ Format (replace <text> with actual      │ metallic or industrial rather    
+ than      │             │           │ │                                        
+ │ │ content, with the code wrapping block): │ fuzzy. The setting should be     
+ abstract,  │             │           │ │                                       
+ │ │ ```json                                 │ perhaps a floating mechanical    
+ city or a │             │           │ │                                        
+ │ │ {                                       │ starry void, rather than a       
+ garden. For  │             │           │ │                                     
+ │ │   "thinking_process": <text>,           │ the negative prompt, I will list 
+ all    │             │           │ │                                           
+ │ │   "positive_prompt": <text>,            │ the elements that define         
+ traditional    │             │           │ │                                   
+ │ │   "negative_prompt": <text>             │ hedgehog depictions, such as     
+ fur,       │             │           │ │                                       
+ │ │ }                                       │ softness, green grass, flowers,  
+ and     │             │           │ │                                          
+ │ │ ```                                     │ wood textures, ensuring no       
+ negative     │             │           │ │                                     
+ │ │                                         │ words like 'not' or 'no' are     
+ used.",    │             │           │ │                                       
+ │ │                                         │   "positive_prompt": "A          
+ steampunk       │             │           │ │                                  
+ │ │ USER                                    │ hedgehog constructed entirely    
+ from      │             │           │ │                                        
+ │ │ hedgehog                                │ polished brass, copper, and iron 
+ gears, │             │           │ │                                           
+ │ │                                         │ with sharp metallic spines       
+ radiating    │             │           │ │                                     
+ │ │ ASSISTANT                               │ outward like industrial bolts,   
+ │             │           │ │                                                  
+ │ │ ```json                                 │ surrounded by floating steam and 
+ │             │           │ │                                                  
+ │ │                                         │ electricity, intricate           
+ mechanical       │             │           │ │                                 
+ │ │                                         │ details, intricate cogs,         
+ Victorian      │             │           │ │                                   
+ │ │                                         │ industrial aesthetic, metallic   
+ │             │           │ │                                                  
+ │ │                                         │ textures, starry sky background, 
+ │             │           │ │                                                  
+ │ │                                         │ cinematic lighting,              
+ hyperrealistic, 8k, │             │           │ │                              
+ │ │                                         │ fantasy art.",                   
+ │             │           │ │                                                  
+ │ │                                         │   "negative_prompt": "fur, soft, 
+ │             │           │ │                                                  
+ │ │                                         │ fluffy, wool, cotton, green      
+ grass,      │             │           │ │                                      
+ │ │                                         │ lawn, flowers, garden, wood,     
+ tree bark, │             │           │ │                                       
+ │ │                                         │ leather, fabric, simple cartoon, 
+ cute,  │             │           │ │                                           
+ │ │                                         │ adorable, realistic photograph   
+ of       │             │           │ │                                         
+ │ │                                         │ animal, natural habitat,         
+ daylight,      │             │           │ │                                   
+ │ │                                         │ outdoor setting, soft shadows,   
+ organic  │             │           │ │                                         
+ │ │                                         │ shapes, smooth skin"             
+ │             │           │ │                                                  
+ │ │                                         │ }                                
+ │             │           │ │                                                  
+ │ │                                         │ ```                              
+ │             │           │ │                                                  
+ │                                                                              
+ ├─────────────────────────────────────────┼─────────────────────────────────── 
+ ──────┼─────────────┼───────────┤ │                                            
+ │ │ SYSTEM                                  │ ASSISTANT                        
+ │        4.69 │      0.60 │ │                                                  
+ │ │                                         │                                  
+ │             │           │ │                                                  
+ │ │ Your job is to design a prompt for a    │ {                                
+ │             │           │ │                                                  
+ │ │ creative, non-traditional style image   │   "thinking_process": "To create 
+ a      │             │           │ │                                           
+ │ │ for a given noun. You should output     │ non-traditional style image of a 
+ │             │           │ │                                                  
+ │ │ both a positive prompt and negative     │ hedgehog, I need to move away    
+ from      │             │           │ │                                        
+ │ │ prompt, in JSON mode. The negative      │ standard realistic depictions    
+ where     │             │           │ │                                        
+ │ │ prompt should describe things that      │ hedgehogs are small, brown/grey, 
+ and    │             │           │ │                                           
+ │ │ would make the image look traditional.  │ covered in stiff spines.         
+ Instead, I     │             │           │ │                                   
+ │ │ The negative prompt should not use      │ will imagine concepts involving  
+ color   │             │           │ │                                          
+ │ │ negation. Write a thinking process      │ shifts (like ice or              
+ bioluminescence),   │             │           │ │                              
+ │ │ before your response.                   │ surreal geometry (hexagonal or   
+ │             │           │ │                                                  
+ │ │                                         │ crystalline structures), or      
+ unusual     │             │           │ │                                      
+ │ │ Format (replace <text> with actual      │ environments (clouds, digital    
+ spaces).  │             │           │ │                                        
+ │ │ content, with the code wrapping block): │ The positive prompt will focus   
+ on these │             │           │ │                                         
+ │ │ ```json                                 │ abstract and artistic elements,  
+ using   │             │           │ │                                          
+ │ │ {                                       │ keywords like 'steampunk,'       
+ │             │           │ │                                                  
+ │ │   "thinking_process": <text>,           │ 'bioluminescent,' 'stylized,'    
+ and       │             │           │ │                                        
+ │ │   "positive_prompt": <text>,            │ 'vibrant colors.' The negative   
+ prompt   │             │           │ │                                         
+ │ │   "negative_prompt": <text>             │ must list these traditional      
+ attributes  │             │           │ │                                      
+ │ │ }                                       │ without using negative words,    
+ simply    │             │           │ │                                        
+ │ │ ```                                     │ describing what to avoid:        
+ realistic     │             │           │ │                                    
+ │ │                                         │ fur, brown/grey color palette,   
+ natural  │             │           │ │                                         
+ │ │                                         │ earthy settings, stiff texture,  
+ │             │           │ │                                                  
+ │ │ USER                                    │ photorealistic look, and         
+ standard       │             │           │ │                                   
+ │ │ hedgehog                                │ wildlife photography styles.",   
+ │             │           │ │                                                  
+ │ │                                         │   "positive_prompt": "A          
+ bioluminescent  │             │           │ │                                  
+ │ │ ASSISTANT                               │ steampunk hedgehog with          
+ translucent     │             │           │ │                                  
+ │ │ ```json                                 │ crystalline spines glowing in    
+ electric  │             │           │ │                                        
+ │ │                                         │ blue and magenta, surrounded by  
+ │             │           │ │                                                  
+ │ │                                         │ floating golden gears and        
+ floating      │             │           │ │                                    
+ │ │                                         │ jellyfish, surreal digital art   
+ style,   │             │           │ │                                         
+ │ │                                         │ vibrant colors, intricate        
+ patterns,     │             │           │ │                                    
+ │ │                                         │ fantasy environment, soft neon   
+ │             │           │ │                                                  
+ │ │                                         │ lighting, isometric view, high   
+ detail,  │             │           │ │                                         
+ │ │                                         │ artistic composition",           
+ │             │           │ │                                                  
+ │ │                                         │   "negative_prompt": "realistic  
+ fur,    │             │           │ │                                          
+ │ │                                         │ brown color, grey color, earthy  
+ tones,  │             │           │ │                                          
+ │ │                                         │ natural forest background,       
+ grass, mud,  │             │           │ │                                     
+ │ │                                         │ wet leaves, stiff texture, photo 
+ │             │           │ │                                                  
+ │ │                                         │ realistic, wildlife photography, 
+ stock  │             │           │ │                                           
+ │ │                                         │ photo, mundane setting, everyday 
+ │             │           │ │                                                  
+ │ │                                         │ objects, cluttered background,   
+ dull     │             │           │ │                                         
+ │ │                                         │ lighting, low contrast,          
+ photorealistic  │             │           │ │                                  
+ │ │                                         │ render, simulation, 3d max       
+ render,      │             │           │ │                                     
+ │ │                                         │ default animal model"            
+ │             │           │ │                                                  
+ │ │                                         │ }                                
+ │             │           │ │                                                  
+ │ │                                         │ ```                              
+ │             │           │ │                                                  
+ │                                                                              
+ ├─────────────────────────────────────────┼─────────────────────────────────── 
+ ──────┼─────────────┼───────────┤ │                                            
+ │ │ SYSTEM                                  │ ASSISTANT                        
+ │        4.45 │     -0.16 │ │                                                  
+ │ │                                         │                                  
+ │             │           │ │                                                  
+ │ │ Your job is to design a prompt for a    │ {                                
+ │             │           │ │                                                  
+ │ │ creative, non-traditional style image   │   "thinking_process": "To create 
+ a      │             │           │ │                                           
+ │ │ for a given noun. You should output     │ non-traditional style image for  
+ a       │             │           │ │                                          
+ │ │ both a positive prompt and negative     │ 'hedgehog', I need to move away  
+ from    │             │           │ │                                          
+ │ │ prompt, in JSON mode. The negative      │ realistic animals or cartoon     
+ │             │           │ │                                                  
+ │ │ prompt should describe things that      │ illustrations. Instead, I will   
+ explore  │             │           │ │                                         
+ │ │ would make the image look traditional.  │ surrealism, abstract concepts,   
+ and      │             │           │ │                                         
+ │ │ The negative prompt should not use      │ unexpected textures. I envision  
+ the     │             │           │ │                                          
+ │ │ negation. Write a thinking process      │ hedgehog's spines transforming   
+ into     │             │           │ │                                         
+ │ │ before your response.                   │ organic shapes like tentacles,   
+ coral,   │             │           │ │                                         
+ │ │                                         │ or digital code. The setting     
+ should be  │             │           │ │                                       
+ │ │ Format (replace <text> with actual      │ a dreamlike environment, perhaps 
+ a      │             │           │ │                                           
+ │ │ content, with the code wrapping block): │ cityscape made of coral or a     
+ forest of  │             │           │ │                                       
+ │ │ ```json                                 │ glass. Colors should be vibrant  
+ and     │             │           │ │                                          
+ │ │ {                                       │ otherworldly, avoiding earthy    
+ tones.    │             │           │ │                                        
+ │ │   "thinking_process": <text>,           │ For the negative prompt, I must  
+ list    │             │           │ │                                          
+ │ │   "positive_prompt": <text>,            │ traditional elements that I want 
+ to     │             │           │ │                                           
+ │ │   "negative_prompt": <text>             │ avoid: realistic fur, human-like 
+ │             │           │ │                                                  
+ │ │ }                                       │ appearance, standard photography 
+ │             │           │ │                                                  
+ │ │ ```                                     │ styles, cartoons, and natural    
+ outdoor   │             │           │ │                                        
+ │ │                                         │ settings with grass or soil.",   
+ │             │           │ │                                                  
+ │ │                                         │   "positive_prompt": "a surreal  
+ │             │           │ │                                                  
+ │ │ USER                                    │ hedgehog where its quills        
+ transform     │             │           │ │                                    
+ │ │ hedgehog                                │ into vibrant, glowing tentacles  
+ made of │             │           │ │                                          
+ │ │                                         │ liquid coral, standing in a      
+ floating    │             │           │ │                                      
+ │ │ ASSISTANT                               │ cathedral of broken glass        
+ spires,       │             │           │ │                                    
+ │ │ ```json                                 │ bioluminescent moss hanging from 
+ the    │             │           │ │                                           
+ │ │                                         │ ceiling, cybernetic spikes       
+ instead of   │             │           │ │                                     
+ │ │                                         │ fur, floating geometric crystals 
+ │             │           │ │                                                  
+ │ │                                         │ surrounding the subject,         
+ dreamlike      │             │           │ │                                   
+ │ │                                         │ atmosphere, ethereal lighting,   
+ deep     │             │           │ │                                         
+ │ │                                         │ blues and neon purples, octane   
+ render,  │             │           │ │                                         
+ │ │                                         │ 8k, highly detailed, artistic    
+ │             │           │ │                                                  
+ │ │                                         │ composition, fantasy concept art 
+ --ar   │             │           │ │                                           
+ │ │                                         │ 16:9 --q 2",                     
+ │             │           │ │                                                  
+ │ │                                         │   "negative_prompt": "realistic  
+ fur,    │             │           │ │                                          
+ │ │                                         │ natural outdoor setting, grass,  
+ dirt,   │             │           │ │                                          
+ │ │                                         │ soil, realistic animal, human    
+ face,     │             │           │ │                                        
+ │ │                                         │ human hands, cartoon style,      
+ │             │           │ │                                                  
+ │ │                                         │ illustration, painting, sketch,  
+ │             │           │ │                                                  
+ │ │                                         │ drawing, photograph, black and   
+ white,   │             │           │ │                                         
+ │ │                                         │ muted colors, earthy tones,      
+ traditional │             │           │ │                                      
+ │ │                                         │ wildlife photography, studio     
+ portrait,  │             │           │ │                                       
+ │ │                                         │ simple background, clean white   
+ space,   │             │           │ │                                         
+ │ │                                         │ generic shape"                   
+ │             │           │ │                                                  
+ │ │                                         │ }                                
+ │             │           │ │                                                  
+ │ │                                         │ ```                              
+ │             │           │ │                                                  
+ │                                                                              
+ ├─────────────────────────────────────────┼─────────────────────────────────── 
+ ──────┼─────────────┼───────────┤ │                                            
+ │ │ SYSTEM                                  │ ASSISTANT                        
+ │        3.80 │     -2.17 │ │                                                  
+ │ │                                         │                                  
+ │             │           │ │                                                  
+ │ │ Your job is to design a prompt for a    │ {                                
+ │             │           │ │                                                  
+ │ │ creative, non-traditional style image   │   "thinking_process": "To create 
+ a      │             │           │ │                                           
+ │ │ for a given noun. You should output     │ non-traditional style image for  
+ a       │             │           │ │                                          
+ │ │ both a positive prompt and negative     │ 'hedgehog', I need to move away  
+ from    │             │           │ │                                          
+ │ │ prompt, in JSON mode. The negative      │ standard illustrations,          
+ realistic       │             │           │ │                                  
+ │ │ prompt should describe things that      │ wildlife photography, or cute    
+ cartoon   │             │           │ │                                        
+ │ │ would make the image look traditional.  │ depictions. Instead, I will      
+ explore     │             │           │ │                                      
+ │ │ The negative prompt should not use      │ abstract, surreal, or industrial 
+ │             │           │ │                                                  
+ │ │ negation. Write a thinking process      │ concepts. I'll imagine a         
+ hedgehog       │             │           │ │                                   
+ │ │ before your response.                   │ deconstructed into geometric     
+ shapes,    │             │           │ │                                       
+ │ │                                         │ mixed with organic textures, or  
+ placed  │             │           │ │                                          
+ │ │ Format (replace <text> with actual      │ in an impossible environment     
+ like a     │             │           │ │                                       
+ │ │ content, with the code wrapping block): │ crystalline forest or a digital  
+ void.   │             │           │ │                                          
+ │ │ ```json                                 │ The prompt should emphasize      
+ textures    │             │           │ │                                      
+ │ │ {                                       │ like chrome, glass, or           
+ bioluminescence  │             │           │ │                                 
+ │ │   "thinking_process": <text>,           │ rather than fur. For the         
+ negative       │             │           │ │                                   
+ │ │   "positive_prompt": <text>,            │ prompt, I will list attributes   
+ │             │           │ │                                                  
+ │ │   "negative_prompt": <text>             │ associated with traditional      
+ imagery:    │             │           │ │                                      
+ │ │ }                                       │ natural settings (forests,       
+ grass),      │             │           │ │                                     
+ │ │ ```                                     │ realistic animal features (fur,  
+ │             │           │ │                                                  
+ │ │                                         │ spines), common lighting         
+ (sunlight,     │             │           │ │                                   
+ │ │                                         │ shadows), and popular art styles 
+ like   │             │           │ │                                           
+ │ │ USER                                    │ anime or realism, without using  
+ │             │           │ │                                                  
+ │ │ hedgehog                                │ negative words like 'no' or      
+ 'not'.",    │             │           │ │                                      
+ │ │                                         │   "positive_prompt": "abstract   
+ │             │           │ │                                                  
+ │ │ ASSISTANT                               │ geometric hedgehog sculpture,    
+ chrome    │             │           │ │                                        
+ │ │ ```json                                 │ and glass spines, floating in a  
+ void of │             │           │ │                                          
+ │ │                                         │ liquid mercury, bioluminescent   
+ blue     │             │           │ │                                         
+ │ │                                         │ veins, intricate architectural   
+ details, │             │           │ │                                         
+ │ │                                         │ surreal composition,             
+ hyper-detailed, 8k │             │           │ │                               
+ │ │                                         │ resolution, dramatic lighting,   
+ octane   │             │           │ │                                         
+ │ │                                         │ render, fantasy art style, neon  
+ │             │           │ │                                                  
+ │ │                                         │ reflections, minimal             
+ background",       │             │           │ │                               
+ │ │                                         │   "negative_prompt": "realistic  
+ animal, │             │           │ │                                          
+ │ │                                         │ fur texture, brown spines,       
+ grass,       │             │           │ │                                     
+ │ │                                         │ forest, field, dirt, natural     
+ sunlight,  │             │           │ │                                       
+ │ │                                         │ soft shadows, cartoon, anime,    
+ drawing,  │             │           │ │                                        
+ │ │                                         │ painting, sketch, traditional    
+ portrait, │             │           │ │                                        
+ │ │                                         │ wildlife photography, cute,      
+ baby,       │             │           │ │                                      
+ │ │                                         │ household items, kitchen,        
+ realistic     │             │           │ │                                    
+ │ │                                         │ fur, detailed paws, natural      
+ habitat"    │             │           │ │                                      
+ │ │                                         │ }                                
+ │             │           │ │                                                  
+ │ │                                         │ ```                              
+ │             │           │ │                                                  
+ │                                                                              
+ ├─────────────────────────────────────────┼─────────────────────────────────── 
+ ──────┼─────────────┼───────────┤ │                                            
+ │ │ SYSTEM                                  │ ASSISTANT                        
+ │        4.38 │     -0.38 │ │                                                  
+ │ │                                         │                                  
+ │             │           │ │                                                  
+ │ │ Your job is to design a prompt for a    │ {                                
+ │             │           │ │                                                  
+ │ │ creative, non-traditional style image   │   "thinking_process": "The user  
+ wants   │             │           │ │                                          
+ │ │ for a given noun. You should output     │ an image prompt for a 'hedgehog' 
+ but    │             │           │ │                                           
+ │ │ both a positive prompt and negative     │ specifically in a 'creative,     
+ │             │           │ │                                                  
+ │ │ prompt, in JSON mode. The negative      │ non-traditional' style.          
+ Traditional     │             │           │ │                                  
+ │ │ prompt should describe things that      │ depictions usually show a        
+ hedgehog with │             │           │ │                                    
+ │ │ would make the image look traditional.  │ reddish-brown spines, small      
+ eyes,       │             │           │ │                                      
+ │ │ The negative prompt should not use      │ standing on hind legs, perhaps   
+ in a     │             │           │ │                                         
+ │ │ negation. Write a thinking process      │ grassy field or holding an       
+ apple. To    │             │           │ │                                     
+ │ │ before your response.                   │ break this, I will focus on      
+ abstract    │             │           │ │                                      
+ │ │                                         │ concepts, surrealism, and        
+ unexpected    │             │           │ │                                    
+ │ │ Format (replace <text> with actual      │ material interpretations. The    
+ positive  │             │           │ │                                        
+ │ │ content, with the code wrapping block): │ prompt should describe a         
+ hedgehog made  │             │           │ │                                   
+ │ │ ```json                                 │ of vibrant, non-organic          
+ materials like  │             │           │ │                                  
+ │ │ {                                       │ neon glass, molten gold, or      
+ floating    │             │           │ │                                      
+ │ │   "thinking_process": <text>,           │ geometric shapes, set in a       
+ dreamlike or │             │           │ │                                     
+ │ │   "positive_prompt": <text>,            │ cosmic environment. The negative 
+ prompt │             │           │ │                                           
+ │ │   "negative_prompt": <text>             │ must explicitly describe what to 
+ avoid  │             │           │ │                                           
+ │ │ }                                       │ without using words like 'no',   
+ 'not',   │             │           │ │                                         
+ │ │ ```                                     │ 'avoid', or 'traditional'.       
+ Instead, it  │             │           │ │                                     
+ │ │                                         │ will list the characteristics of 
+ the    │             │           │ │                                           
+ │ │                                         │ traditional hedgehog image as    
+ positive  │             │           │ │                                        
+ │ │ USER                                    │ descriptors that the AI should   
+ ignore,  │             │           │ │                                         
+ │ │ hedgehog                                │ such as 'realistic texture',     
+ 'brown     │             │           │ │                                       
+ │ │                                         │ fur', 'natural environment',     
+ 'standing  │             │           │ │                                       
+ │ │ ASSISTANT                               │ upright', and 'wooden            
+ texture'.",       │             │           │ │                                
+ │ │ ```json                                 │   "positive_prompt": "A surreal  
+ │             │           │ │                                                  
+ │ │                                         │ hedgehog constructed from shards 
+ of     │             │           │ │                                           
+ │ │                                         │ iridescent glass and molten      
+ liquid      │             │           │ │                                      
+ │ │                                         │ gold, floating in a void of      
+ swirling    │             │           │ │                                      
+ │ │                                         │ nebula clouds and floating       
+ fractal      │             │           │ │                                     
+ │ │                                         │ geometries. The spines are       
+ elongated,   │             │           │ │                                     
+ │ │                                         │ glowing wires wrapped in velvet. 
+ The    │             │           │ │                                           
+ │ │                                         │ face features wide, starry eye   
+ sockets  │             │           │ │                                         
+ │ │                                         │ and a jaw made of polished       
+ emerald.     │             │           │ │                                     
+ │ │                                         │ Dramatic volumetric lighting,    
+ cinematic │             │           │ │                                        
+ │ │                                         │ depth of field, hyper-detailed,  
+ digital │             │           │ │                                          
+ │ │                                         │ art, masterpiece, vibrant        
+ colors,       │             │           │ │                                    
+ │ │                                         │ surrealism, imaginative          
+ composition, 8k │             │           │ │                                  
+ │ │                                         │ resolution, dreamlike            
+ atmosphere.",     │             │           │ │                                
+ │ │                                         │   "negative_prompt": "brown fur, 
+ │             │           │ │                                                  
+ │ │                                         │ realistic texture, natural grass 
+ │             │           │ │                                                  
+ │ │                                         │ environment, dirt, mud, trees,   
+ wood     │             │           │ │                                         
+ │ │                                         │ bark, standing on legs,          
+ human-like      │             │           │ │                                  
+ │ │                                         │ posture, studio photography,     
+ black and  │             │           │ │                                       
+ │ │                                         │ white, grayscale, low            
+ resolution,       │             │           │ │                                
+ │ │                                         │ blurry, cartoon style, 3d        
+ render,       │             │           │ │                                    
+ │ │                                         │ photorealistic, everyday         
+ setting,       │             │           │ │                                   
+ │ │                                         │ simple background, gray          
+ background,     │             │           │ │                                  
+ │ │                                         │ monochromatic, standard animal   
+ art,     │             │           │ │                                         
+ │ │                                         │ static pose, mild horror, weird  
+ angles, │             │           │ │                                          
+ │ │                                         │ hidden faces, symmetrical,       
+ logical      │             │           │ │                                     
+ │ │                                         │ anatomy, realistic lighting,     
+ natural    │             │           │ │                                       
+ │ │                                         │ shadows, historical setting,     
+ fantasy    │             │           │ │                                       
+ │ │                                         │ forest"                          
+ │             │           │ │                                                  
+ │ │                                         │ }                                
+ │             │           │ │                                                  
+ │ │                                         │ ```                              
+ │             │           │ │                                                  
+ │                                                                              
+ ├─────────────────────────────────────────┼─────────────────────────────────── 
+ ──────┼─────────────┼───────────┤ │                                            
+ │ │ SYSTEM                                  │ ASSISTANT                        
+ │        4.13 │     -1.14 │ │                                                  
+ │ │                                         │                                  
+ │             │           │ │                                                  
+ │ │ Your job is to design a prompt for a    │ {                                
+ │             │           │ │                                                  
+ │ │ creative, non-traditional style image   │   "thinking_process": "To create 
+ a      │             │           │ │                                           
+ │ │ for a given noun. You should output     │ non-traditional hedgehog image,  
+ I need  │             │           │ │                                          
+ │ │ both a positive prompt and negative     │ to move away from the            
+ stereotypical     │             │           │ │                                
+ │ │ prompt, in JSON mode. The negative      │ lone creature in a forest        
+ setting.      │             │           │ │                                    
+ │ │ prompt should describe things that      │ Instead, I will imagine a        
+ surreal,      │             │           │ │                                    
+ │ │ would make the image look traditional.  │ abstract, or macro-focused       
+ │             │           │ │                                                  
+ │ │ The negative prompt should not use      │ interpretation. The prompt       
+ should       │             │           │ │                                     
+ │ │ negation. Write a thinking process      │ emphasize vibrant, impossible    
+ colors,   │             │           │ │                                        
+ │ │ before your response.                   │ unusual textures like crystals   
+ or       │             │           │ │                                         
+ │ │                                         │ molten metal, and unexpected     
+ │             │           │ │                                                  
+ │ │ Format (replace <text> with actual      │ environments such as a neon city 
+ or a   │             │           │ │                                           
+ │ │ content, with the code wrapping block): │ dreamscape. For the negative     
+ prompt, I  │             │           │ │                                       
+ │ │ ```json                                 │ must list traditional            
+ descriptors       │             │           │ │                                
+ │ │ {                                       │ directly without using words     
+ like 'no'  │             │           │ │                                       
+ │ │   "thinking_process": <text>,           │ or 'avoid.' This means listing   
+ │             │           │ │                                                  
+ │ │   "positive_prompt": <text>,            │ traditional subjects (solo       
+ hedgehog,    │             │           │ │                                     
+ │ │   "negative_prompt": <text>             │ forest) and traditional styles   
+ │             │           │ │                                                  
+ │ │ }                                       │ (photorealistic, wireframe,      
+ charcoal,   │             │           │ │                                      
+ │ │ ```                                     │ fur texture) as positive traits  
+ to      │             │           │ │                                          
+ │ │                                         │ exclude from the generation      
+ process by  │             │           │ │                                      
+ │ │                                         │ the model's rejection logic.",   
+ │             │           │ │                                                  
+ │ │ USER                                    │   "positive_prompt": "a hedgehog 
+ │             │           │ │                                                  
+ │ │ hedgehog                                │ composed of glowing neon circuit 
+ boards │             │           │ │                                           
+ │ │                                         │ and liquid mercury, floating in  
+ a void  │             │           │ │                                          
+ │ │ ASSISTANT                               │ of shifting starry nebulas,      
+ macro shot, │             │           │ │                                      
+ │ │ ```json                                 │ hyper-detailed, volumetric       
+ lighting,    │             │           │ │                                     
+ │ │                                         │ iridescent scales, surreal       
+ architecture │             │           │ │                                     
+ │ │                                         │ composed of floating geometric   
+ shards,  │             │           │ │                                         
+ │ │                                         │ vibrant purple and electric blue 
+ │             │           │ │                                                  
+ │ │                                         │ palette, cinematic composition,  
+ 8k      │             │           │ │                                          
+ │ │                                         │ resolution, digital art, fantasy 
+ │             │           │ │                                                  
+ │ │                                         │ concept art, intricate           
+ mechanical       │             │           │ │                                 
+ │ │                                         │ details, dreamlike atmosphere",  
+ │             │           │ │                                                  
+ │ │                                         │   "negative_prompt": "solo       
+ hedgehog on  │             │           │ │                                     
+ │ │                                         │ ground, forest, woodland, dirt   
+ path,    │             │           │ │                                         
+ │ │                                         │ realistic fur texture, wireframe 
+ model, │             │           │ │                                           
+ │ │                                         │ sketch, charcoal, black and      
+ white,      │             │           │ │                                      
+ │ │                                         │ traditional illustration, naive  
+ art,    │             │           │ │                                          
+ │ │                                         │ rustic, barn, cottage, birds     
+ nest,      │             │           │ │                                       
+ │ │                                         │ single subject, central          
+ composition,    │             │           │ │                                  
+ │ │                                         │ symmetrical arrangement,         
+ │             │           │ │                                                  
+ │ │                                         │ photorealistic, 3d render,       
+ blender      │             │           │ │                                     
+ │ │                                         │ style, octane render, serious    
+ tone,     │             │           │ │                                        
+ │ │                                         │ documentary style, static        
+ background"   │             │           │ │                                    
+ │ │                                         │ }                                
+ │             │           │ │                                                  
+ │ │                                         │ ```                              
+ │             │           │ │                                                  
+ │                                                                              
+ ├─────────────────────────────────────────┼─────────────────────────────────── 
+ ──────┼─────────────┼───────────┤ │                                            
+ │ │ SYSTEM                                  │ ASSISTANT                        
+ │        4.52 │      0.07 │ │                                                  
+ │ │                                         │                                  
+ │             │           │ │                                                  
+ │ │ Your job is to design a prompt for a    │ {                                
+ │             │           │ │                                                  
+ │ │ creative, non-traditional style image   │   "thinking_process": "To create 
+ a      │             │           │ │                                           
+ │ │ for a given noun. You should output     │ non-traditional, creative image  
+ of a    │             │           │ │                                          
+ │ │ both a positive prompt and negative     │ hedgehog, I need to move away    
+ from      │             │           │ │                                        
+ │ │ prompt, in JSON mode. The negative      │ standard depictions like a round 
+ body   │             │           │ │                                           
+ │ │ prompt should describe things that      │ covered in sharp spikes, often   
+ found in │             │           │ │                                         
+ │ │ would make the image look traditional.  │ cartoons or realistic wildlife   
+ │             │           │ │                                                  
+ │ │ The negative prompt should not use      │ photography. Instead, I will     
+ explore    │             │           │ │                                       
+ │ │ negation. Write a thinking process      │ surreal concepts. Perhaps the    
+ hedgehog  │             │           │ │                                        
+ │ │ before your response.                   │ is part of an intricate machine, 
+ made   │             │           │ │                                           
+ │ │                                         │ of organic and synthetic         
+ materials like │             │           │ │                                   
+ │ │ Format (replace <text> with actual      │ crystal or neon lights, or       
+ perhaps it   │             │           │ │                                     
+ │ │ content, with the code wrapping block): │ is growing into a giant tree. I  
+ will    │             │           │ │                                          
+ │ │ ```json                                 │ focus the positive prompt on     
+ specific   │             │           │ │                                       
+ │ │ {                                       │ artistic styles such as          
+ 'synthwave,'    │             │           │ │                                  
+ │ │   "thinking_process": <text>,           │ 'biopunk,' or 'dystopian sci-fi' 
+ to     │             │           │ │                                           
+ │ │   "positive_prompt": <text>,            │ ensure the result feels modern   
+ and      │             │           │ │                                         
+ │ │   "negative_prompt": <text>             │ abstract. For the negative       
+ prompt, I    │             │           │ │                                     
+ │ │ }                                       │ will list characteristics of     
+ │             │           │ │                                                  
+ │ │ ```                                     │ traditional imagery without      
+ using       │             │           │ │                                      
+ │ │                                         │ negation words like 'no' or      
+ 'not'. This │             │           │ │                                      
+ │ │                                         │ means listing concrete           
+ descriptors of   │             │           │ │                                 
+ │ │ USER                                    │ traditional styles such as       
+ 'realistic   │             │           │ │                                     
+ │ │ hedgehog                                │ lighting,' 'natural background,' 
+ │             │           │ │                                                  
+ │ │                                         │ 'cartoon style,' 'documentary    
+ │             │           │ │                                                  
+ │ │ ASSISTANT                               │ photography,' and 'standard      
+ wildlife    │             │           │ │                                      
+ │ │ ```json                                 │ pose.' The goal is to actively   
+ describe │             │           │ │                                         
+ │ │                                         │ what the image should NOT be by  
+ │             │           │ │                                                  
+ │ │                                         │ describing the traditional       
+ attributes   │             │           │ │                                     
+ │ │                                         │ directly.",                      
+ │             │           │ │                                                  
+ │ │                                         │   "positive_prompt": "a hedgehog 
+ │             │           │ │                                                  
+ │ │                                         │ constructed from translucent     
+ cyan       │             │           │ │                                       
+ │ │                                         │ crystals and neon circuitry,     
+ emitting a │             │           │ │                                       
+ │ │                                         │ soft purple glow, standing in a  
+ │             │           │ │                                                  
+ │ │                                         │ labyrinth of floating            
+ holographic       │             │           │ │                                
+ │ │                                         │ geometric shapes, cyberpunk      
+ cityscape   │             │           │ │                                      
+ │ │                                         │ background with towering         
+ skyscrapers    │             │           │ │                                   
+ │ │                                         │ made of glass and steel, rain    
+ │             │           │ │                                                  
+ │ │                                         │ reflecting neon lights on the    
+ ground,   │             │           │ │                                        
+ │ │                                         │ cinematic lighting, volumetric   
+ fog,     │             │           │ │                                         
+ │ │                                         │ hyper-realistic texture,         
+ intricate      │             │           │ │                                   
+ │ │                                         │ details, surrealism, octane      
+ render, 8k  │             │           │ │                                      
+ │ │                                         │ resolution, artist style:        
+ Moebius and   │             │           │ │                                    
+ │ │                                         │ Syd Mead",                       
+ │             │           │ │                                                  
+ │ │                                         │   "negative_prompt": "realistic  
+ │             │           │ │                                                  
+ │ │                                         │ lighting, natural outdoor        
+ setting,      │             │           │ │                                    
+ │ │                                         │ daytime, cartoon style,          
+ illustration,   │             │           │ │                                  
+ │ │                                         │ drawing, sketch, watercolor,     
+ pencil     │             │           │ │                                       
+ │ │                                         │ sketch, oil painting,            
+ documentary       │             │           │ │                                
+ │ │                                         │ photography, wildlife            
+ photographer      │             │           │ │                                
+ │ │                                         │ style, sharp focus on fur, soft  
+ white   │             │           │ │                                          
+ │ │                                         │ background, simple shapes, human 
+ face   │             │           │ │                                           
+ │ │                                         │ nearby, realistic animal         
+ behavior,      │             │           │ │                                   
+ │ │                                         │ natural grass or earth, wood     
+ texture,   │             │           │ │                                       
+ │ │                                         │ metal rust, gothic architecture, 
+ │             │           │ │                                                  
+ │ │                                         │ classical art style,             
+ impressionism,     │             │           │ │                               
+ │ │                                         │ surrealism of nature, cute       
+ style,       │             │           │ │                                     
+ │ │                                         │ mascot design"                   
+ │             │           │ │                                                  
+ │ │                                         │ }                                
+ │             │           │ │                                                  
+ │ │                                         │ ```                              
+ │             │           │ │                                                  
+ │                                                                              
+ ├─────────────────────────────────────────┼─────────────────────────────────── 
+ ──────┼─────────────┼───────────┤ │                                            
+ │ │ SYSTEM                                  │ ASSISTANT                        
+ │        4.54 │      0.12 │ │                                                  
+ │ │                                         │                                  
+ │             │           │ │                                                  
+ │ │ Your job is to design a prompt for a    │ {                                
+ │             │           │ │                                                  
+ │ │ creative, non-traditional style image   │   "thinking_process": "To create 
+ a      │             │           │ │                                           
+ │ │ for a given noun. You should output     │ creative and non-traditional     
+ image of a │             │           │ │                                       
+ │ │ both a positive prompt and negative     │ hedgehog, I need to move away    
+ from the  │             │           │ │                                        
+ │ │ prompt, in JSON mode. The negative      │ common depiction of a grey       
+ animal with  │             │           │ │                                     
+ │ │ prompt should describe things that      │ a spiky back running in a field. 
+ │             │           │ │                                                  
+ │ │ would make the image look traditional.  │ Instead, I will explore abstract 
+ │             │           │ │                                                  
+ │ │ The negative prompt should not use      │ concepts, surrealism, or         
+ unexpected     │             │           │ │                                   
+ │ │ negation. Write a thinking process      │ juxtapositions. The positive     
+ prompt     │             │           │ │                                       
+ │ │ before your response.                   │ should describe a hedgehog       
+ composed of  │             │           │ │                                     
+ │ │                                         │ unusual elements, such as broken 
+ │             │           │ │                                                  
+ │ │ Format (replace <text> with actual      │ clockwork, liquid metal, or      
+ floating in │             │           │ │                                      
+ │ │ content, with the code wrapping block): │ a void, emphasizing texture,     
+ lighting,  │             │           │ │                                       
+ │ │ ```json                                 │ and a dreamlike atmosphere. For  
+ the     │             │           │ │                                          
+ │ │ {                                       │ negative prompt, I will list     
+ specific   │             │           │ │                                       
+ │ │   "thinking_process": <text>,           │ traditional attributes and       
+ styles that  │             │           │ │                                     
+ │ │   "positive_prompt": <text>,            │ I want to avoid, such as         
+ realistic      │             │           │ │                                   
+ │ │   "negative_prompt": <text>             │ animal photography, natural      
+ │             │           │ │                                                  
+ │ │ }                                       │ environments like forests or     
+ grass,     │             │           │ │                                       
+ │ │ ```                                     │ standard color palettes, cartoon 
+ │             │           │ │                                                  
+ │ │                                         │ styles, and photorealistic       
+ textures.    │             │           │ │                                     
+ │ │                                         │ The negative prompt will be      
+ written as  │             │           │ │                                      
+ │ │ USER                                    │ positive descriptions of what    
+ the image │             │           │ │                                        
+ │ │ hedgehog                                │ should NOT contain (e.g.,        
+ 'realistic    │             │           │ │                                    
+ │ │                                         │ photo', 'forest background'      
+ instead of  │             │           │ │                                      
+ │ │ ASSISTANT                               │ 'not a forest').",               
+ │             │           │ │                                                  
+ │ │ ```json                                 │   "positive_prompt": "a hedgehog 
+ │             │           │ │                                                  
+ │ │                                         │ sculpted from intricate brass    
+ gears and │             │           │ │                                        
+ │ │                                         │ oxidized copper pipes, floating  
+ in a    │             │           │ │                                          
+ │ │                                         │ void of neon blue and violet     
+ smoke, the │             │           │ │                                       
+ │ │                                         │ spines made of glowing fiber     
+ optic      │             │           │ │                                       
+ │ │                                         │ cables, dynamic dramatic         
+ lighting,      │             │           │ │                                   
+ │ │                                         │ hyper-detailed macro             
+ photography,       │             │           │ │                               
+ │ │                                         │ surreal atmosphere, dreamlike    
+ │             │           │ │                                                  
+ │ │                                         │ composition, floating particles, 
+ │             │           │ │                                                  
+ │ │                                         │ bioluminescent accent, octane    
+ render,   │             │           │ │                                        
+ │ │                                         │ 8k resolution, abstract fantasy  
+ art",   │             │           │ │                                          
+ │ │                                         │   "negative_prompt": "realistic  
+ photo,  │             │           │ │                                          
+ │ │                                         │ photograph, animal, forest,      
+ grass,      │             │           │ │                                      
+ │ │                                         │ field, natural environment,      
+ cartoon,    │             │           │ │                                      
+ │ │                                         │ manga, anime, painting, sketch,  
+ │             │           │ │                                                  
+ │ │                                         │ illustration, realistic texture, 
+ fur,   │             │           │ │                                           
+ │ │                                         │ skin, leaf, flower, rainbow,     
+ summer,    │             │           │ │                                       
+ │ │                                         │ outdoors, sky, clouds, sunset,   
+ sunrise, │             │           │ │                                         
+ │ │                                         │ beach, sand, ocean, water, human 
+ │             │           │ │                                                  
+ │ │                                         │ figure, face, eyes, mouth, nose, 
+ ear,   │             │           │ │                                           
+ │ │                                         │ hand, leg, foot, shadow,         
+ silhouette,    │             │           │ │                                   
+ │ │                                         │ low resolution, blurry, soft     
+ focus,     │             │           │ │                                       
+ │ │                                         │ overly bright, overly dark,      
+ simple      │             │           │ │                                      
+ │ │                                         │ background, white background,    
+ grey      │             │           │ │                                        
+ │ │                                         │ background"                      
+ │             │           │ │                                                  
+ │ │                                         │ }                                
+ │             │           │ │                                                  
+ │ │                                         │ ```                              
+ │             │           │ │                                                  
+ │                                                                              
+ ├─────────────────────────────────────────┼─────────────────────────────────── 
+ ──────┼─────────────┼───────────┤ │                                            
+ │ │ SYSTEM                                  │ ASSISTANT                        
+ │        4.59 │      0.28 │ │                                                  
+ │ │                                         │                                  
+ │             │           │ │                                                  
+ │ │ Your job is to design a prompt for a    │ {                                
+ │             │           │ │                                                  
+ │ │ creative, non-traditional style image   │   "thinking_process": "To create 
+ a      │             │           │ │                                           
+ │ │ for a given noun. You should output     │ non-traditional image for a      
+ 'hedgehog', │             │           │ │                                      
+ │ │ both a positive prompt and negative     │ I will move away from the        
+ standard      │             │           │ │                                    
+ │ │ prompt, in JSON mode. The negative      │ realism of a rodent with a       
+ quilled      │             │           │ │                                     
+ │ │ prompt should describe things that      │ back. Instead, I will explore    
+ abstract  │             │           │ │                                        
+ │ │ would make the image look traditional.  │ or surreal interpretations. The  
+ concept │             │           │ │                                          
+ │ │ The negative prompt should not use      │ of the hedgehog's prickly nature 
+ can be │             │           │ │                                           
+ │ │ negation. Write a thinking process      │ translated into geometric        
+ shapes, fluid │             │           │ │                                    
+ │ │ before your response.                   │ art, or a fusion with nature     
+ elements   │             │           │ │                                       
+ │ │                                         │ like glass, crystal, or cosmic   
+ nebulas. │             │           │ │                                         
+ │ │ Format (replace <text> with actual      │ I will avoid traditional animal  
+ │             │           │ │                                                  
+ │ │ content, with the code wrapping block): │ portraits, realistic fur         
+ textures,      │             │           │ │                                   
+ │ │ ```json                                 │ studio lighting, and human       
+ observers.   │             │           │ │                                     
+ │ │ {                                       │ The resulting prompt will focus  
+ on      │             │           │ │                                          
+ │ │   "thinking_process": <text>,           │ vibrant colors, dynamic shapes,  
+ and     │             │           │ │                                          
+ │ │   "positive_prompt": <text>,            │ artistic mediums like oil        
+ painting or   │             │           │ │                                    
+ │ │   "negative_prompt": <text>             │ 3D rendering to ensure the image 
+ feels  │             │           │ │                                           
+ │ │ }                                       │ creative and unique rather than  
+ a       │             │           │ │                                          
+ │ │ ```                                     │ standard illustration of a small 
+ │             │           │ │                                                  
+ │ │                                         │ mammal.",                        
+ │             │           │ │                                                  
+ │ │                                         │   "positive_prompt": "a surreal  
+ │             │           │ │                                                  
+ │ │ USER                                    │ abstract hedgehog composed of    
+ │             │           │ │                                                  
+ │ │ hedgehog                                │ iridescent floating glass shards 
+ and    │             │           │ │                                           
+ │ │                                         │ floating geometric crystals,     
+ vibrant    │             │           │ │                                       
+ │ │ ASSISTANT                               │ neon teal and magenta color      
+ palette,    │             │           │ │                                      
+ │ │ ```json                                 │ dynamic composition, fragmented  
+ │             │           │ │                                                  
+ │ │                                         │ geometry forming a spiky         
+ silhouette,    │             │           │ │                                   
+ │ │                                         │ deep space background with       
+ nebula       │             │           │ │                                     
+ │ │                                         │ clouds, oil painting texture     
+ mixed with │             │           │ │                                       
+ │ │                                         │ 3D render, macro photography     
+ details,   │             │           │ │                                       
+ │ │                                         │ ethereal glow, artistic collage  
+ style,  │             │           │ │                                          
+ │ │                                         │ dreamlike atmosphere, high       
+ contrast,    │             │           │ │                                     
+ │ │                                         │ intricate patterns, no facial    
+ │             │           │ │                                                  
+ │ │                                         │ features",                       
+ │             │           │ │                                                  
+ │ │                                         │   "negative_prompt": "realistic  
+ animal, │             │           │ │                                          
+ │ │                                         │ furry texture, rodent, mammal,   
+ natural  │             │           │ │                                         
+ │ │                                         │ habitat, forest, grass, tree,    
+ leaves,   │             │           │ │                                        
+ │ │                                         │ human observer, photo, portrait, 
+ │             │           │ │                                                  
+ │ │                                         │ silhouette, studio lighting,     
+ soft       │             │           │ │                                       
+ │ │                                         │ lighting, warm colors, pastel,   
+ cartoon, │             │           │ │                                         
+ │ │                                         │ illustration, sketch, drawing,   
+ │             │           │ │                                                  
+ │ │                                         │ traditional art, classical       
+ style,       │             │           │ │                                     
+ │ │                                         │ realistic fur, detailed animal   
+ anatomy, │             │           │ │                                         
+ │ │                                         │ naturalistic rendering, earth    
+ tones,    │             │           │ │                                        
+ │ │                                         │ mundane, common, standard        
+ depiction,    │             │           │ │                                    
+ │ │                                         │ simple background, white         
+ background,    │             │           │ │                                   
+ │ │                                         │ flat color, 2d drawing, hand     
+ drawn"     │             │           │ │                                       
+ │ │                                         │ }                                
+ │             │           │ │                                                  
+ │ │                                         │ ```                              
+ │             │           │ │                                                  
+ │                                                                              
+ ├─────────────────────────────────────────┼─────────────────────────────────── 
+ ──────┼─────────────┼───────────┤ │                                            
+ │ │ SYSTEM                                  │ ASSISTANT                        
+ │        4.98 │      1.50 │ │                                                  
+ │ │                                         │                                  
+ │             │           │ │                                                  
+ │ │ Your job is to design a prompt for a    │ {                                
+ │             │           │ │                                                  
+ │ │ creative, non-traditional style image   │   "thinking_process": "To create 
+ a      │             │           │ │                                           
+ │ │ for a given noun. You should output     │ non-traditional image of a       
+ hedgehog, I  │             │           │ │                                     
+ │ │ both a positive prompt and negative     │ need to avoid standard           
+ biological       │             │           │ │                                 
+ │ │ prompt, in JSON mode. The negative      │ accuracy and photorealism.       
+ Instead, I   │             │           │ │                                     
+ │ │ prompt should describe things that      │ will focus on surrealism, art    
+ styles    │             │           │ │                                        
+ │ │ would make the image look traditional.  │ like textile collage or digital  
+ │             │           │ │                                                  
+ │ │ The negative prompt should not use      │ warping, and exaggerated         
+ physical       │             │           │ │                                   
+ │ │ negation. Write a thinking process      │ traits. The positive prompt      
+ should      │             │           │ │                                      
+ │ │ before your response.                   │ emphasize unique textures (like  
+ fur     │             │           │ │                                          
+ │ │                                         │ made of velvet or geometric      
+ shapes),    │             │           │ │                                      
+ │ │ Format (replace <text> with actual      │ unusual colors (neon, twilight   
+ hues),   │             │           │ │                                         
+ │ │ content, with the code wrapping block): │ and abstract environments. For   
+ the      │             │           │ │                                         
+ │ │ ```json                                 │ negative prompt, I must describe 
+ the    │             │           │ │                                           
+ │ │ {                                       │ absence of traditional qualities 
+ │             │           │ │                                                  
+ │ │   "thinking_process": <text>,           │ without using negative words.    
+ This      │             │           │ │                                        
+ │ │   "positive_prompt": <text>,            │ means explicitly stating that    
+ the image │             │           │ │                                        
+ │ │   "negative_prompt": <text>             │ is not realistic, not            
+ photographic, not │             │           │ │                                
+ │ │ }                                       │ a natural animal, not born, not  
+ │             │           │ │                                                  
+ │ │ ```                                     │ fossilized, and lacks standard   
+ forest   │             │           │ │                                         
+ │ │                                         │ or garden settings. The goal is  
+ to      │             │           │ │                                          
+ │ │                                         │ force the generator to move away 
+ from   │             │           │ │                                           
+ │ │ USER                                    │ realism entirely.",              
+ │             │           │ │                                                  
+ │ │ hedgehog                                │   "positive_prompt": "A surreal  
+ │             │           │ │                                                  
+ │ │                                         │ hedgehog sculpted from swirling  
+ velvet  │             │           │ │                                          
+ │ │ ASSISTANT                               │ and translucent geometric        
+ shards, fur   │             │           │ │                                    
+ │ │ ```json                                 │ made of tiny floating magnets,   
+ │             │           │ │                                                  
+ │ │                                         │ oversized teardrop eyes glowing  
+ with    │             │           │ │                                          
+ │ │                                         │ starlight, body pattern          
+ resembling      │             │           │ │                                  
+ │ │                                         │ fractured stained glass,         
+ floating in a  │             │           │ │                                   
+ │ │                                         │ twilight gradient void with      
+ │             │           │ │                                                  
+ │ │                                         │ bioluminescent pollen clouds,    
+ soft      │             │           │ │                                        
+ │ │                                         │ volumetric lighting, dreamlike   
+ │             │           │ │                                                  
+ │ │                                         │ atmosphere, hyper-stylized,      
+ octane      │             │           │ │                                      
+ │ │                                         │ render, 8k, intricate details,   
+ │             │           │ │                                                  
+ │ │                                         │ whimsical art style, thick paint 
+ │             │           │ │                                                  
+ │ │                                         │ application, vibrant neon        
+ palette       │             │           │ │                                    
+ │ │                                         │ against deep purple background,  
+ │             │           │ │                                                  
+ │ │                                         │ floating behind a large morphing 
+ │             │           │ │                                                  
+ │ │                                         │ geometric tentacle",             
+ │             │           │ │                                                  
+ │ │                                         │   "negative_prompt":             
+ "photograph,       │             │           │ │                               
+ │ │                                         │ realistic, real world, natural   
+ │             │           │ │                                                  
+ │ │                                         │ lighting, accurate animal        
+ anatomy,      │             │           │ │                                    
+ │ │                                         │ standard forest, grassy field,   
+ muddy    │             │           │ │                                         
+ │ │                                         │ ground, photographic blur, low   
+ │             │           │ │                                                  
+ │ │                                         │ resolution, pixels, grainy       
+ texture,     │             │           │ │                                     
+ │ │                                         │ flat color, two-dimensional      
+ drawing,    │             │           │ │                                      
+ │ │                                         │ outline sketch, cartoonish,      
+ cartoon,    │             │           │ │                                      
+ │ │                                         │ anime, illustration, painting,   
+ │             │           │ │                                                  
+ │ │                                         │ classical oil painting,          
+ watercolor,     │             │           │ │                                  
+ │ │                                         │ anime, sketch, diagram,          
+ illustration,   │             │           │ │                                  
+ │ │                                         │ infographics, scientific         
+ illustration,  │             │           │ │                                   
+ │ │                                         │ anatomical chart, real life,     
+ human      │             │           │ │                                       
+ │ │                                         │ hand, hand holding, product      
+ shot,       │             │           │ │                                      
+ │ │                                         │ commercial advertisement,        
+ close-up      │             │           │ │                                    
+ │ │                                         │ portrait, wildlife documentary,  
+ nature  │             │           │ │                                          
+ │ │                                         │ reserve, zoo, cage, leash,       
+ collar,      │             │           │ │                                     
+ │ │                                         │ bandana, recognition mark,       
+ badge,       │             │           │ │                                     
+ │ │                                         │ license plate, monument, statue, 
+ grave, │             │           │ │                                           
+ │ │                                         │ fossil, skeleton, hologram       
+ projection,  │             │           │ │                                     
+ │ │                                         │ heat map, x-ray view, medical    
+ scan,     │             │           │ │                                        
+ │ │                                         │ macro lens, split image,         
+ collage, mixed │             │           │ │                                   
+ │ │                                         │ media, pottery, ceramics, basket 
+ weave, │             │           │ │                                           
+ │ │                                         │ textile pattern, embroidery,     
+ tapestry,  │             │           │ │                                       
+ │ │                                         │ zentangle, fractal art, abstract 
+ │             │           │ │                                                  
+ │ │                                         │ geometric shape, isolated        
+ subject,      │             │           │ │                                    
+ │ │                                         │ floating objects"                
+ │             │           │ │                                                  
+ │ │                                         │ }                                
+ │             │           │ │                                                  
+ │ │                                         │ ```                              
+ │             │           │ │                                                  
+ │                                                                              
+ ├─────────────────────────────────────────┼─────────────────────────────────── 
+ ──────┼─────────────┼───────────┤ │                                            
+ │ │ SYSTEM                                  │ ASSISTANT                        
+ │        4.59 │      0.29 │ │                                                  
+ │ │                                         │                                  
+ │             │           │ │                                                  
+ │ │ Your job is to design a prompt for a    │ {                                
+ │             │           │ │                                                  
+ │ │ creative, non-traditional style image   │   "thinking_process": "The user  
+ wants a │             │           │ │                                          
+ │ │ for a given noun. You should output     │ creative, non-traditional image  
+ prompt  │             │           │ │                                          
+ │ │ both a positive prompt and negative     │ for a 'hedgehog'. Traditional    
+ │             │           │ │                                                  
+ │ │ prompt, in JSON mode. The negative      │ depictions usually involve fuzzy 
+ │             │           │ │                                                  
+ │ │ prompt should describe things that      │ grey/brown quills, a pointed     
+ nose,      │             │           │ │                                       
+ │ │ would make the image look traditional.  │ small eyes, and a relaxed or     
+ running    │             │           │ │                                       
+ │ │ The negative prompt should not use      │ pose in a natural setting. To    
+ create    │             │           │ │                                        
+ │ │ negation. Write a thinking process      │ something non-traditional, I     
+ need to    │             │           │ │                                       
+ │ │ before your response.                   │ subvert these expectations. I    
+ will      │             │           │ │                                        
+ │ │                                         │ imagine a hedgehog fused with    
+ │             │           │ │                                                  
+ │ │ Format (replace <text> with actual      │ architecture, technology, or     
+ surreal    │             │           │ │                                       
+ │ │ content, with the code wrapping block): │ elements, perhaps made of glass, 
+ metal, │             │           │ │                                           
+ │ │ ```json                                 │ or pixels, standing in an        
+ unexpected    │             │           │ │                                    
+ │ │ {                                       │ environment like a cyberpunk     
+ city or a  │             │           │ │                                       
+ │ │   "thinking_process": <text>,           │ dystopian landscape. The style   
+ should   │             │           │ │                                         
+ │ │   "positive_prompt": <text>,            │ be high-detail, neon-lit, or     
+ abstract.  │             │           │ │                                       
+ │ │   "negative_prompt": <text>             │ For the negative prompt, I must  
+ │             │           │ │                                                  
+ │ │ }                                       │ explicitly describe traditional  
+ traits  │             │           │ │                                          
+ │ │ ```                                     │ (like 'fuzzy fur', 'natural      
+ forest',    │             │           │ │                                      
+ │ │                                         │ 'soft lighting', 'realistic      
+ texture')   │             │           │ │                                      
+ │ │                                         │ without using negative words     
+ like 'no'  │             │           │ │                                       
+ │ │ USER                                    │ or 'without', ensuring the image 
+ │             │           │ │                                                  
+ │ │ hedgehog                                │ generator avoids these           
+ conventional     │             │           │ │                                 
+ │ │                                         │ representations.",               
+ │             │           │ │                                                  
+ │ │ ASSISTANT                               │   "positive_prompt": "a surreal  
+ │             │           │ │                                                  
+ │ │ ```json                                 │ hedgehog made of translucent     
+ obsidian   │             │           │ │                                       
+ │ │                                         │ glass and chrome gears, standing 
+ amidst │             │           │ │                                           
+ │ │                                         │ a neon-lit cyberpunk metropolis  
+ with    │             │           │ │                                          
+ │ │                                         │ floating holographic cherry      
+ blossoms,   │             │           │ │                                      
+ │ │                                         │ sharp angular lines, metallic    
+ spikes    │             │           │ │                                        
+ │ │                                         │ reflecting cyber-orange and      
+ │             │           │ │                                                  
+ │ │                                         │ electric-blue lights, motion     
+ blur,      │             │           │ │                                       
+ │ │                                         │ volumetric fog, high-tech        
+ architecture, │             │           │ │                                    
+ │ │                                         │ 8k resolution, octane render,    
+ cinematic │             │           │ │                                        
+ │ │                                         │ lighting, futuristic fashion     
+ accessory  │             │           │ │                                       
+ │ │                                         │ concept",                        
+ │             │           │ │                                                  
+ │ │                                         │   "negative_prompt": "fuzzy fur, 
+ soft   │             │           │ │                                           
+ │ │                                         │ textures, brown or grey colors,  
+ │             │           │ │                                                  
+ │ │                                         │ realistic animal skin, forest    
+ setting,  │             │           │ │                                        
+ │ │                                         │ natural environment, daylight,   
+ soft     │             │           │ │                                         
+ │ │                                         │ shadows, cute style, cartoon,    
+ │             │           │ │                                                  
+ │ │                                         │ illustration, sketch, painterly  
+ style,  │             │           │ │                                          
+ │ │                                         │ classical art, traditional       
+ wildlife     │             │           │ │                                     
+ │ │                                         │ photography, soft edges, diffuse 
+ │             │           │ │                                                  
+ │ │                                         │ lighting, mundane background,    
+ real      │             │           │ │                                        
+ │ │                                         │ animal fur, green grass, blue    
+ sky,      │             │           │ │                                        
+ │ │                                         │ clouds, trees, leaves"           
+ │             │           │ │                                                  
+ │ │                                         │ }                                
+ │             │           │ │                                                  
+ │ │                                         │ ```                              
+ │             │           │ │                                                  
+ │                                                                              
+ ├─────────────────────────────────────────┼─────────────────────────────────── 
+ ──────┼─────────────┼───────────┤ │                                            
+ │ │ SYSTEM                                  │ ASSISTANT                        
+ │        4.63 │      0.41 │ │                                                  
+ │ │                                         │                                  
+ │             │           │ │                                                  
+ │ │ Your job is to design a prompt for a    │ {                                
+ │             │           │ │                                                  
+ │ │ creative, non-traditional style image   │   "thinking_process": "To create 
+ a      │             │           │ │                                           
+ │ │ for a given noun. You should output     │ non-traditional, creative style  
+ image   │             │           │ │                                          
+ │ │ both a positive prompt and negative     │ for a 'hedgehog,' I will move    
+ away from │             │           │ │                                        
+ │ │ prompt, in JSON mode. The negative      │ the standard image of a small    
+ mammal    │             │           │ │                                        
+ │ │ prompt should describe things that      │ with a spiky back in a forest    
+ setting.  │             │           │ │                                        
+ │ │ would make the image look traditional.  │ Instead, I will explore surreal  
+ and     │             │           │ │                                          
+ │ │ The negative prompt should not use      │ abstract concepts. I'll imagine  
+ the     │             │           │ │                                          
+ │ │ negation. Write a thinking process      │ hedgehog as a celestial body, a  
+ garden  │             │           │ │                                          
+ │ │ before your response.                   │ of thorns, or a living sculpture 
+ made   │             │           │ │                                           
+ │ │                                         │ of natural elements like moss,   
+ flowers, │             │           │ │                                         
+ │ │ Format (replace <text> with actual      │ and stone. The positive prompt   
+ should   │             │           │ │                                         
+ │ │ content, with the code wrapping block): │ focus on vibrant colors, unique  
+ │             │           │ │                                                  
+ │ │ ```json                                 │ textures (like velvet, glass, or 
+ moss), │             │           │ │                                           
+ │ │ {                                       │ imaginative perspectives, and    
+ artistic  │             │           │ │                                        
+ │ │   "thinking_process": <text>,           │ movements like Surrealism or Art 
+ │             │           │ │                                                  
+ │ │   "positive_prompt": <text>,            │ Nouveau. For the negative        
+ prompt, I     │             │           │ │                                    
+ │ │   "negative_prompt": <text>             │ need to list all the             
+ characteristics    │             │           │ │                               
+ │ │ }                                       │ that define a 'traditional'      
+ │             │           │ │                                                  
+ │ │ ```                                     │ representation without using     
+ negative   │             │           │ │                                       
+ │ │                                         │ words like 'no' or 'avoid.' This 
+ means  │             │           │ │                                           
+ │ │                                         │ listing 'photorealistic,'        
+ 'documentary  │             │           │ │                                    
+ │ │ USER                                    │ style,' 'simple forest           
+ background,'     │             │           │ │                                 
+ │ │ hedgehog                                │ 'natural fur texture,'           
+ 'cartoonish      │             │           │ │                                 
+ │ │                                         │ coloring,' and 'realistic animal 
+ │             │           │ │                                                  
+ │ │ ASSISTANT                               │ anatomy.' The goal is to ensure  
+ the     │             │           │ │                                          
+ │ │ ```json                                 │ image feels dreamlike and        
+ artistic      │             │           │ │                                    
+ │ │                                         │ rather than a literal photograph 
+ or     │             │           │ │                                           
+ │ │                                         │ textbook illustration.",         
+ │             │           │ │                                                  
+ │ │                                         │   "positive_prompt": "A surreal  
+ art     │             │           │ │                                          
+ │ │                                         │ nouveau hedgehog crafted         
+ entirely from  │             │           │ │                                   
+ │ │                                         │ vibrant emerald moss,            
+ crystalline       │             │           │ │                                
+ │ │                                         │ flowers, and polished river      
+ stones,     │             │           │ │                                      
+ │ │                                         │ glowing with bioluminescent      
+ spines, set │             │           │ │                                      
+ │ │                                         │ against a swirling nebula of     
+ purple and │             │           │ │                                       
+ │ │                                         │ gold clouds, intricate details,  
+ │             │           │ │                                                  
+ │ │                                         │ hyper-realistic textures,        
+ magical       │             │           │ │                                    
+ │ │                                         │ atmosphere, dreamlike            
+ composition, 8k   │             │           │ │                                
+ │ │                                         │ resolution, masterful digital    
+ │             │           │ │                                                  
+ │ │                                         │ painting",                       
+ │             │           │ │                                                  
+ │ │                                         │   "negative_prompt":             
+ "photorealistic,   │             │           │ │                               
+ │ │                                         │ documentary style, simple forest 
+ │             │           │ │                                                  
+ │ │                                         │ background, natural fur texture, 
+ │             │           │ │                                                  
+ │ │                                         │ realistic animal anatomy,        
+ cartoonish    │             │           │ │                                    
+ │ │                                         │ coloring, plain white            
+ background, green │             │           │ │                                
+ │ │                                         │ outdoor setting, small furry     
+ mammal,    │             │           │ │                                       
+ │ │                                         │ natural habitat, realistic       
+ scales,      │             │           │ │                                     
+ │ │                                         │ standard zoology illustration,   
+ soft     │             │           │ │                                         
+ │ │                                         │ daylight, 35mm camera, candid    
+ shot,     │             │           │ │                                        
+ │ │                                         │ mundane environment, ordinary    
+ garden    │             │           │ │                                        
+ │ │                                         │ setting"                         
+ │             │           │ │                                                  
+ │ │                                         │ }                                
+ │             │           │ │                                                  
+ │ │                                         │ ```                              
+ │             │           │ │                                                  
+ │                                                                              
+ ├─────────────────────────────────────────┼─────────────────────────────────── 
+ ──────┼─────────────┼───────────┤ │                                            
+ │ │ SYSTEM                                  │ ASSISTANT                        
+ │        4.35 │     -0.48 │ │                                                  
+ │ │                                         │                                  
+ │             │           │ │                                                  
+ │ │ Your job is to design a prompt for a    │ {                                
+ │             │           │ │                                                  
+ │ │ creative, non-traditional style image   │   "thinking_process": "To create 
+ a      │             │           │ │                                           
+ │ │ for a given noun. You should output     │ non-traditional image for a      
+ 'hedgehog', │             │           │ │                                      
+ │ │ both a positive prompt and negative     │ I need to move away from the     
+ common     │             │           │ │                                       
+ │ │ prompt, in JSON mode. The negative      │ trope of a woolly green hedgehog 
+ on a   │             │           │ │                                           
+ │ │ prompt should describe things that      │ white lawn under a blue sky.     
+ Instead, I │             │           │ │                                       
+ │ │ would make the image look traditional.  │ will explore surrealism,         
+ abstract art,  │             │           │ │                                   
+ │ │ The negative prompt should not use      │ or conceptual imagery. The       
+ positive     │             │           │ │                                     
+ │ │ negation. Write a thinking process      │ prompt should describe a         
+ hedgehog made  │             │           │ │                                   
+ │ │ before your response.                   │ of unexpected materials, found   
+ in       │             │           │ │                                         
+ │ │                                         │ unusual locations, or existing   
+ in a     │             │           │ │                                         
+ │ │ Format (replace <text> with actual      │ dream-like state, utilizing      
+ vivid       │             │           │ │                                      
+ │ │ content, with the code wrapping block): │ colors and dynamic lighting. The 
+ │             │           │ │                                                  
+ │ │ ```json                                 │ negative prompt needs to         
+ explicitly     │             │           │ │                                   
+ │ │ {                                       │ describe traditional             
+ characteristics    │             │           │ │                               
+ │ │   "thinking_process": <text>,           │ (like green fur, white           
+ backgrounds,     │             │           │ │                                 
+ │ │   "positive_prompt": <text>,            │ pineapples, flat illustration    
+ styles,   │             │           │ │                                        
+ │ │   "negative_prompt": <text>             │ or realistic photography) as     
+ positive   │             │           │ │                                       
+ │ │ }                                       │ attributes to ensure the AI      
+ filters     │             │           │ │                                      
+ │ │ ```                                     │ them out during generation.",    
+ │             │           │ │                                                  
+ │ │                                         │   "positive_prompt": "A surreal  
+ │             │           │ │                                                  
+ │ │                                         │ hedgehog crafted from iridescent 
+ │             │           │ │                                                  
+ │ │ USER                                    │ stained glass and liquid         
+ mercury,       │             │           │ │                                   
+ │ │ hedgehog                                │ floating in a void of swirling   
+ nebulas, │             │           │ │                                         
+ │ │                                         │ deep violet and teal tones,      
+ intricate   │             │           │ │                                      
+ │ │ ASSISTANT                               │ spikes resembling fractal        
+ antennas,     │             │           │ │                                    
+ │ │ ```json                                 │ bioluminescent glow from within, 
+ │             │           │ │                                                  
+ │ │                                         │ hyper-detailed textures, octane  
+ render, │             │           │ │                                          
+ │ │                                         │ 8k, artistic surrealism,         
+ dreamlike      │             │           │ │                                   
+ │ │                                         │ atmosphere, cinematic lighting", 
+ │             │           │ │                                                  
+ │ │                                         │   "negative_prompt": "green fur, 
+ white  │             │           │ │                                           
+ │ │                                         │ background, blue sky, grass,     
+ pinecone,  │             │           │ │                                       
+ │ │                                         │ realistic photography, flat      
+ │             │           │ │                                                  
+ │ │                                         │ illustration, cartoon style,     
+ static     │             │           │ │                                       
+ │ │                                         │ pose, human features,            
+ traditional       │             │           │ │                                
+ │ │                                         │ realism, office setting, garden, 
+ │             │           │ │                                                  
+ │ │                                         │ winter, neutral colors, simple   
+ shapes,  │             │           │ │                                         
+ │ │                                         │ low resolution, blurry, messy    
+ lines,    │             │           │ │                                        
+ │ │                                         │ sketch, charcoal, charcoal       
+ drawing, ink │             │           │ │                                     
+ │ │                                         │ wash painting, watercolor,       
+ pastel,      │             │           │ │                                     
+ │ │                                         │ pastels, pop art, vibrant        
+ colors, heavy │             │           │ │                                    
+ │ │                                         │ shadows, contrast, shading,      
+ depth of    │             │           │ │                                      
+ │ │                                         │ field, bokeh, grainy, noir, noir 
+ style, │             │           │ │                                           
+ │ │                                         │ noir lighting, dramatic          
+ lighting,       │             │           │ │                                  
+ │ │                                         │ chiaroscuro"                     
+ │             │           │ │                                                  
+ │ │                                         │ }                                
+ │             │           │ │                                                  
+ │ │                                         │ ```                              
+ │             │           │ │                                                  
+ │                                                                              
+ ├─────────────────────────────────────────┼─────────────────────────────────── 
+ ──────┼─────────────┼───────────┤ │                                            
+ │ │ SYSTEM                                  │ ASSISTANT                        
+ │        4.74 │      0.74 │ │                                                  
+ │ │                                         │                                  
+ │             │           │ │                                                  
+ │ │ Your job is to design a prompt for a    │ {                                
+ │             │           │ │                                                  
+ │ │ creative, non-traditional style image   │   "thinking_process": "To create 
+ a      │             │           │ │                                           
+ │ │ for a given noun. You should output     │ non-traditional style image of a 
+ │             │           │ │                                                  
+ │ │ both a positive prompt and negative     │ hedgehog, I need to move away    
+ from      │             │           │ │                                        
+ │ │ prompt, in JSON mode. The negative      │ standard wildlife photography or 
+ │             │           │ │                                                  
+ │ │ prompt should describe things that      │ realistic illustrations.         
+ Instead, I     │             │           │ │                                   
+ │ │ would make the image look traditional.  │ will explore abstract concepts,  
+ │             │           │ │                                                  
+ │ │ The negative prompt should not use      │ surrealism, and texture plays.   
+ The      │             │           │ │                                         
+ │ │ negation. Write a thinking process      │ traditional look would be        
+ defined by    │             │           │ │                                    
+ │ │ before your response.                   │ realistic fur details, natural   
+ settings │             │           │ │                                         
+ │ │                                         │ like forests or meadows,         
+ photorealistic │             │           │ │                                   
+ │ │ Format (replace <text> with actual      │ lighting, and a realistic pose.  
+ │             │           │ │                                                  
+ │ │ content, with the code wrapping block): │ Conversely, the creative prompt  
+ should  │             │           │ │                                          
+ │ │ ```json                                 │ emphasize melting forms,         
+ geometric      │             │           │ │                                   
+ │ │ {                                       │ distortions, impossible          
+ architecture,   │             │           │ │                                  
+ │ │   "thinking_process": <text>,           │ surreal color palettes, ink wash 
+ │             │           │ │                                                  
+ │ │   "positive_prompt": <text>,            │ textures, and lack of realistic  
+ │             │           │ │                                                  
+ │ │   "negative_prompt": <text>             │ anatomical structures.",         
+ │             │           │ │                                                  
+ │ │ }                                       │   "positive_prompt": "a melting  
+ │             │           │ │                                                  
+ │ │ ```                                     │ hedgehog made of shattered       
+ stained      │             │           │ │                                     
+ │ │                                         │ glass shards glowing with neon   
+ pink and │             │           │ │                                         
+ │ │                                         │ cyan light, emerging from an     
+ abstract   │             │           │ │                                       
+ │ │ USER                                    │ void of swirling cosmic smoke,   
+ the      │             │           │ │                                         
+ │ │ hedgehog                                │ spines are transforming into     
+ sharp      │             │           │ │                                       
+ │ │                                         │ geometric crystals, floating     
+ amidst a   │             │           │ │                                       
+ │ │ ASSISTANT                               │ surreal dreamscape of liquid     
+ mercury    │             │           │ │                                       
+ │ │ ```json                                 │ and giant mechanical gears made  
+ of      │             │           │ │                                          
+ │ │                                         │ cotton candy, intricate Sepia    
+ and       │             │           │ │                                        
+ │ │                                         │ ultra-detailed textures, oil     
+ paint      │             │           │ │                                       
+ │ │                                         │ splatter effects, surrealism,    
+ dreamlike │             │           │ │                                        
+ │ │                                         │ atmosphere, high contrast,       
+ octane       │             │           │ │                                     
+ │ │                                         │ render",                         
+ │             │           │ │                                                  
+ │ │                                         │   "negative_prompt":             
+ "photorealistic,   │             │           │ │                               
+ │ │                                         │ realistic fur texture, natural   
+ forest   │             │           │ │                                         
+ │ │                                         │ background, meadow, nature       
+ scene,       │             │           │ │                                     
+ │ │                                         │ woodland, realistic lighting,    
+ shadow    │             │           │ │                                        
+ │ │                                         │ play, accurate anatomy,          
+ naturalistic    │             │           │ │                                  
+ │ │                                         │ pose, wildlife photography,      
+ documentary │             │           │ │                                      
+ │ │                                         │ style, grayscale, black and      
+ white,      │             │           │ │                                      
+ │ │                                         │ sketch, drawing, cartoon,        
+ illustration, │             │           │ │                                    
+ │ │                                         │ simple shapes, clean lines,      
+ traditional │             │           │ │                                      
+ │ │                                         │ art style, photo-realistic       
+ rendering,   │             │           │ │                                     
+ │ │                                         │ 3D scan, detailed biological     
+ features,  │             │           │ │                                       
+ │ │                                         │ organic realism"                 
+ │             │           │ │                                                  
+ │ │                                         │ }                                
+ │             │           │ │                                                  
+ │ │                                         │ ```                              
+ │             │           │ │                                                  
+ │                                                                              
+ ├─────────────────────────────────────────┼─────────────────────────────────── 
+ ──────┼─────────────┼───────────┤ │                                            
+ │ │ SYSTEM                                  │ ASSISTANT                        
+ │        4.21 │     -0.89 │ │                                                  
+ │ │                                         │                                  
+ │             │           │ │                                                  
+ │ │ Your job is to design a prompt for a    │ {                                
+ │             │           │ │                                                  
+ │ │ creative, non-traditional style image   │   "thinking_process": "To design 
+ a      │             │           │ │                                           
+ │ │ for a given noun. You should output     │ non-traditional hedgehog image,  
+ I need  │             │           │ │                                          
+ │ │ both a positive prompt and negative     │ to move away from the standard   
+ │             │           │ │                                                  
+ │ │ prompt, in JSON mode. The negative      │ depiction of a cute, orange,     
+ spiky      │             │           │ │                                       
+ │ │ prompt should describe things that      │ creature in a garden setting.    
+ Instead,  │             │           │ │                                        
+ │ │ would make the image look traditional.  │ I will explore surrealism,       
+ │             │           │ │                                                  
+ │ │ The negative prompt should not use      │ architecture, and abstract       
+ forms. The   │             │           │ │                                     
+ │ │ negation. Write a thinking process      │ positive prompt should emphasize 
+ unique │             │           │ │                                           
+ │ │ before your response.                   │ materials like obsidian or       
+ stained      │             │           │ │                                     
+ │ │                                         │ glass, unexpected settings such  
+ as a    │             │           │ │                                          
+ │ │ Format (replace <text> with actual      │ celestial sphere or underwater   
+ ruin,    │             │           │ │                                         
+ │ │ content, with the code wrapping block): │ and dynamic lighting that        
+ creates high  │             │           │ │                                    
+ │ │ ```json                                 │ contrast and mystical            
+ atmospheres. It   │             │           │ │                                
+ │ │ {                                       │ should avoid realistic textures  
+ and     │             │           │ │                                          
+ │ │   "thinking_process": <text>,           │ natural landscapes. For the      
+ negative    │             │           │ │                                      
+ │ │   "positive_prompt": <text>,            │ prompt, I will list elements     
+ that       │             │           │ │                                       
+ │ │   "negative_prompt": <text>             │ represent traditional imagery    
+ without   │             │           │ │                                        
+ │ │ }                                       │ using the word 'no' or 'not'.    
+ This      │             │           │ │                                        
+ │ │ ```                                     │ includes standard animals,       
+ realistic    │             │           │ │                                     
+ │ │                                         │ rendering, green grass,          
+ sunlight,       │             │           │ │                                  
+ │ │                                         │ domestic settings, and simple    
+ │             │           │ │                                                  
+ │ │ USER                                    │ backgrounds, ensuring the image  
+ remains │             │           │ │                                          
+ │ │ hedgehog                                │ stylized and imaginative.",      
+ │             │           │ │                                                  
+ │ │                                         │   "positive_prompt": "a hedgehog 
+ │             │           │ │                                                  
+ │ │ ASSISTANT                               │ constructed from shattered       
+ stained      │             │           │ │                                     
+ │ │ ```json                                 │ glass and black obsidian shards, 
+ │             │           │ │                                                  
+ │ │                                         │ forming a sphere of floating     
+ geometric  │             │           │ │                                       
+ │ │                                         │ spikes, set against a swirling   
+ nebula   │             │           │ │                                         
+ │ │                                         │ of violet and gold ink,          
+ illuminated by  │             │           │ │                                  
+ │ │                                         │ bioluminescent fractal light     
+ beams,     │             │           │ │                                       
+ │ │                                         │ surrounded by ethereal floating  
+ rocks   │             │           │ │                                          
+ │ │                                         │ resembling lava lamps, surreal   
+ │             │           │ │                                                  
+ │ │                                         │ underground cavern ceiling with  
+ hanging │             │           │ │                                          
+ │ │                                         │ crystal chandeliers, high        
+ contrast      │             │           │ │                                    
+ │ │                                         │ dramatic lighting,               
+ hyper-detailed       │             │           │ │                             
+ │ │                                         │ texture, fantasy concept art,    
+ cinematic │             │           │ │                                        
+ │ │                                         │ composition, 8k resolution,      
+ │             │           │ │                                                  
+ │ │                                         │ masterpiece",                    
+ │             │           │ │                                                  
+ │ │                                         │   "negative_prompt": "realistic  
+ │             │           │ │                                                  
+ │ │                                         │ hedgehog, orange fur, natural    
+ sunlight, │             │           │ │                                        
+ │ │                                         │ green grass, garden, outdoor,    
+ realistic │             │           │ │                                        
+ │ │                                         │ texture, photo, normal           
+ sharpness,       │             │           │ │                                 
+ │ │                                         │ domestic setting, family pet,    
+ cute      │             │           │ │                                        
+ │ │                                         │ cartoon, simple background,      
+ white       │             │           │ │                                      
+ │ │                                         │ background, flat color, low      
+ detail,     │             │           │ │                                      
+ │ │                                         │ soft focus, morning light,       
+ natural      │             │           │ │                                     
+ │ │                                         │ landscape, dandelion field,      
+ human       │             │           │ │                                      
+ │ │                                         │ character, photorealistic,       
+ standard     │             │           │ │                                     
+ │ │                                         │ animal form"                     
+ │             │           │ │                                                  
+ │ │                                         │ }                                
+ │             │           │ │                                                  
+ │ │                                         │ ```                              
+ │             │           │ │                                                  
+ │                                                                              
+ └─────────────────────────────────────────┴─────────────────────────────────── 
+ ──────┴─────────────┴───────────┘ │                                            
+ ╰───────────────────────────────────────────────────────────────────────────── 
+ ────────────────────────────────────╯                                          
+                                                                                
